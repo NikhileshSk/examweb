@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.container{
+    background-color: white;
+}
+
+.row{
+    width: 100%;
+    height: 107px;
+   
+   
+}
+
+.logo{
+    width: 500px;
+    height: 110px;
+    
+}
+
+.logo img{
+    width: 55%;
+    height: 66px;
+    margin-top: 23px;
+    margin-left: 50px;
+   
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 42px;
+   
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: green;
+}
+
+
+.home{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home::before{
+    content: "";
+    background-image: url(./images/banner.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.main{
+    position: absolute;
+    top: 174px;
+    left: 100px;
+    color: rgb(65, 104, 65);
+}
+.main h1{
+    font-weight: lighter;
+}
+.main p{
+    font-weight: bolder;
+    padding-top: 25px;
+}
+.main h4{
+    background-color: rgb(57, 101, 57);
+    color: white;
+    width: 115px;
+    height: 34px;
+    text-align: center;
+    font-weight:lighter ;
+}
+
+/* services */
+#services{
+    width: 100%;
+    height: 300px;
+}
+
+#services .row{
+    display: flex;
+    padding-top: 105px;
+    justify-content: space-around;
+}
+
+#services .row p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* images section */
+.row1{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.row1 h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: green;
+    text-align: justify;
+}
+.row1 p{
+    
+    font-weight: lighter;
+    padding: 10px;
+    color: green;
+    text-align: justify;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
